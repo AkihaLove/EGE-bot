@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types
 import stress
 from aiogram.filters import Command
 
-bot = Bot(token="7584084318:AAFSYrF2adJdespKkuGVo5JObVfjx0QLgy4")
+bot = Bot(token="Your Token Here")
 dp = Dispatcher()
 
 @dp.message(Command('start'))  # Обработка команды /start
